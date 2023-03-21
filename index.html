@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo app</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="name-options">
+        <h1>Todo</h1>
+        <button class="change-theme-btn">
+          <img src="images/icon-sun.svg" alt="Zmień motyw" />
+        </button>
+      </div>
+    </header>
+    <main class="main-container">
+      <section class="new-todo-container">
+        <button class="circle"><p>+</p></button>
+        <input type="text" id="newTodo" placeholder="Stwórz nowe zadanie..." />
+      </section>
+      <div class="hide-wrapper">
+        <section class="todos-container">
+          <ul class="list-group"></ul>
+          <div class="todos-footer">
+            <p id="todos-counter"></p>
+            <button id="delete-completed">Usuń ukończone</button>
+          </div>
+        </section>
+        <section class="states">
+          <button class="active">Wszystko</button>
+          <button>Aktywne</button>
+          <button>Ukończone</button>
+          <div class="drag-drop-info">
+            Przeciągnij i upuść aby organizować listę
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
