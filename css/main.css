@@ -49,7 +49,7 @@ input[type="checkbox"] {
       inset: 0;
       width: 100%;
       height: 100%;
-      background-image: url(/images/icon-check.svg);
+      background-image: url(../images/icon-check.svg);
       background-repeat: no-repeat;
       background-position: center center; }
 
@@ -61,12 +61,12 @@ input[type="checkbox"] {
 .hero {
   width: 100vw;
   height: 33vh;
-  background-image: url(/images/bg-mobile-dark.jpg);
+  background-image: url(../images/bg-mobile-dark.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
   @media (min-width: 768px) {
     .hero {
-      background-image: url(/images/bg-desktop-dark.jpg); } }
+      background-image: url(../images/bg-desktop-dark.jpg); } }
   .hero h1 {
     color: white;
     letter-spacing: 0.6rem;
@@ -207,10 +207,10 @@ section {
 body.light {
   background-color: #fafafa; }
   body.light .hero {
-    background-image: url(/images/bg-mobile-light.jpg); }
+    background-image: url(../images/bg-mobile-light.jpg); }
     @media (min-width: 768px) {
       body.light .hero {
-        background-image: url(/images/bg-desktop-light.jpg); } }
+        background-image: url(../images/bg-desktop-light.jpg); } }
   body.light .new-todo-container #newTodo {
     color: #777a92; }
   body.light section {
